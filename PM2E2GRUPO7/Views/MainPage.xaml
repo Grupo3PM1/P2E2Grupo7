@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E2GRUPO7.Views.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+       Text="Nueva Ubicacion" x:Name="Toolbar01" Clicked="Toolbar01_Clicked">
+        </ToolbarItem>
+
+        <ToolbarItem 
+       Text="Ubicaciones Salvadas" x:Name="Toolbar02" Clicked="Toolbar02_Clicked">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <Image Source="uth.png"
+                       HeightRequest="50"
+                       HorizontalOptions="Center"
+                       Margin="0,15,0,0"
+                       Aspect="AspectFill" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+     
+            <Image 
+                x:Name="Photo" 
+                Grid.Row="0" 
+                Grid.Column="1" 
+                Source="noimagen.png" 
+                WidthRequest="300" 
+                HeightRequest="100" 
+                HorizontalOptions="Center"/>
+
+            <Button
+                x:Name="TakePhoto"
+                Grid.Row          ="0"
+                Grid.Column       ="2"
+                WidthRequest      ="50"
+                HeightRequest     ="50"
+                CornerRadius      ="25"
+                VerticalOptions   ="EndAndExpand"
+                HorizontalOptions ="StartAndExpand"
+                Image="camera.png"/>
+        </Grid>
+
+        <Label Text="Latitd actual:" FontAttributes="Bold" Margin="30,15,0,0"/>
+        <Entry 
+            Text="{Binding latitud}"  
+            x:Name="txtlatitud" 
+            Placeholder="Latitud" 
+            Keyboard="Text" 
+            Margin="30,0,30,0"  
+            FontSize="15" 
+            IsReadOnly="True"/>
+        <Label Text="Longitud actual:" FontAttributes="Bold" Margin="30,0,0,0"/>
+        <Entry 
+            Text="{Binding longitud}" 
+            x:Name="txtlongitud" 
+            Placeholder="Longitud" 
+            Keyboard="Text" 
+            Margin="30,0,30,0"  
+            FontSize="15" 
+            IsReadOnly="True"/>
+        <Label Text="Descripción:" FontAttributes="Bold" Margin="30,0,0,0"/>
+        <Editor 
+            Text="{Binding descripcionLarga}" 
+            x:Name="txtdescripcion" 
+            HeightRequest="100" 
+            Margin="30,0,30,0" 
+            Keyboard="Text" 
+            Placeholder="Describa la ubicación"  
+            FontSize="15"/>
+
+        <Button 
+            Text="Salvar ubicacion" 
+            x:Name="BtnGuardar" 
+            Clicked="BtnGuardar_Clicked" 
+            HorizontalOptions="Center" 
+            Background="MediumPurple" 
+            TextColor="White" 
+            WidthRequest="200" 
+            Margin="0,15,0,0"/>
+        <Button 
+            Text="Ubicaciones Salvadas" 
+            x:Name="BtnUbicacion" 
+            Clicked="BtnUbicacion_Clicked"  
+            HorizontalOptions="Center" 
+            Background="MediumPurple" 
+            TextColor="White" 
+            WidthRequest="200" 
+            Margin="0,10,0,0"/>
+    </StackLayout>
+</ContentPage>

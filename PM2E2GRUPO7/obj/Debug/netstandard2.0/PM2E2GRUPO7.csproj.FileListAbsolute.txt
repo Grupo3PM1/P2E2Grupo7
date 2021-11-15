@@ -1,0 +1,16 @@
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.csproj.AssemblyReference.cache
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.AssemblyInfoInputs.cache
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.AssemblyInfo.cs
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.csproj.CoreCompileInputs.cache
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\bin\Debug\netstandard2.0\PM2E2GRUPO7.deps.json
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\bin\Debug\netstandard2.0\PM2E2GRUPO7.dll
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\bin\Debug\netstandard2.0\ref\PM2E2GRUPO7.dll
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\bin\Debug\netstandard2.0\PM2E2GRUPO7.pdb
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.dll
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\ref\PM2E2GRUPO7.dll
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.pdb
+C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
