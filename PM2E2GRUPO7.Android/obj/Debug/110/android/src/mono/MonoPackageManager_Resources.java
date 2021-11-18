@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "PM2E2GRUPO7.Android.dll" comes first in this list. */
 		"PM2E2GRUPO7.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.dll",
 		"Plugin.Media.dll",

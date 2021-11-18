@@ -13,6 +13,8 @@ using System.Reflection;
 using System.IO;
 using Plugin.Media;
 
+using Xamarin.Essentials;
+
 namespace PM2E2GRUPO7.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -25,9 +27,26 @@ namespace PM2E2GRUPO7.Views
         public MainPage()
         {
             InitializeComponent();
-            Ubicacion();
+            Conexion();
+            //Ubicacion();
             TakePhoto.Clicked += TakePhoto_Clicked;
         }
+
+        //INICIO VALIDACION DE CONEXION A INTERNET
+        private async void Conexion()
+        {
+            if (Connectivity.NetworkAccess != NetworkAccess.Internet)
+            {
+                await DisplayAlert("Sin Internet", "Por favor active su conexion a internet", "Ok");
+                return;
+            }
+            else
+            {
+                await DisplayAlert("Bienvenido", "Cuenta con Internet", "Ok");
+                Ubicacion();
+            }
+        }//FIN
+
 
         // INICIO UBICACION
         private async void Ubicacion()
@@ -38,9 +57,18 @@ namespace PM2E2GRUPO7.Views
                 return;
             }
 
-            CrossGeolocator.Current.PositionChanged += Current_PositionChanged;
+            if (CrossGeolocator.Current.IsGeolocationEnabled)
+            {
+                CrossGeolocator.Current.PositionChanged += Current_PositionChanged;
 
-            await CrossGeolocator.Current.StartListeningAsync(new TimeSpan(0, 0, 1), 0.5);
+                await CrossGeolocator.Current.StartListeningAsync(new TimeSpan(0, 0, 1), 0.5);
+
+            }
+            else
+            {
+                await DisplayAlert("Error", "El GPS no esta activo en este dispositivo", "OK");
+            }
+            
         }
 
         private void Current_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
@@ -58,8 +86,8 @@ namespace PM2E2GRUPO7.Views
 
         private async Task ValidationForm()
         {
-            if (String.IsNullOrWhiteSpace(txtlatitud.Text) || 
-                String.IsNullOrWhiteSpace(txtlongitud.Text) || 
+            if (String.IsNullOrWhiteSpace(txtlatitud.Text) ||
+                String.IsNullOrWhiteSpace(txtlongitud.Text) ||
                 String.IsNullOrWhiteSpace(txtdescripcion.Text) ||
                 takedfoto == false)
             {
@@ -69,26 +97,34 @@ namespace PM2E2GRUPO7.Views
 
         private async void Toolbar01_Clicked(object sender, EventArgs e)
         {
+
             await Navigation.PushAsync(new MainPage());
         }
 
-        private async void Toolbar02_Clicked(object sender, EventArgs e)
+            private async void Toolbar02_Clicked(object sender, EventArgs e)
         {
             //await Navigation.PushAsync(new OTRA_PANTALLA());
         }
 
         private async void BtnGuardar_Clicked(object sender, EventArgs e)
-
         {
-            if (ValidationForm().IsCompleted)
-            {
-                ClearScreen();
-                await DisplayAlert("Salvado", "Guardado Exitosamente", "Ok");
-            }
-            else
-            {
-                await DisplayAlert("Error", "No se pudo guardar la ubicacion", "Ok");
-            }
+                if (ValidationForm().IsCompleted)
+                {
+                var sitio = new Models.Sitio
+                {
+                    descripcion = txtdescripcion.Text,
+                    latitud = txtlatitud.Text,
+                    longitud = txtlongitud.Text
+                };
+
+                await PM2E2GRUPO7.Controllers.SitiosController.CrearSitio(sitio);
+                    ClearScreen();
+                    await DisplayAlert("Salvado", "Guardado Exitosamente", "Ok");
+                }
+                else
+                {
+                    await DisplayAlert("Error", "No se pudo guardar la ubicacion", "Ok");
+                }
         }
 
         private void ClearScreen()

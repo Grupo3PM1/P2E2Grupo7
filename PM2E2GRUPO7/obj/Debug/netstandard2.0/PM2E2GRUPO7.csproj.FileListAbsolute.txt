@@ -14,3 +14,19 @@ C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.dll
 C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\ref\PM2E2GRUPO7.dll
 C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.pdb
 C:\Xamarin\PM2E2GRUPO7\PM2E2GRUPO7\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\bin\Debug\netstandard2.0\PM2E2GRUPO7.deps.json
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\bin\Debug\netstandard2.0\PM2E2GRUPO7.dll
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\bin\Debug\netstandard2.0\ref\PM2E2GRUPO7.dll
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\bin\Debug\netstandard2.0\PM2E2GRUPO7.pdb
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.csproj.AssemblyReference.cache
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.AssemblyInfoInputs.cache
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.AssemblyInfo.cs
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.csproj.CoreCompileInputs.cache
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.dll
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\ref\PM2E2GRUPO7.dll
+C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7\obj\Debug\netstandard2.0\PM2E2GRUPO7.pdb
