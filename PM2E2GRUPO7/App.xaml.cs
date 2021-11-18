@@ -11,6 +11,7 @@ namespace PM2E2GRUPO7
             InitializeComponent();
 
             MainPage = new NavigationPage(new Views.MainPage());
+            //MainPage = new NavigationPage(new Views.PruebaPage());
         }
 
         protected override void OnStart()

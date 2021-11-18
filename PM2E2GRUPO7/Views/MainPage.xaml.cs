@@ -101,30 +101,30 @@ namespace PM2E2GRUPO7.Views
             await Navigation.PushAsync(new MainPage());
         }
 
-            private async void Toolbar02_Clicked(object sender, EventArgs e)
-        {
-            //await Navigation.PushAsync(new OTRA_PANTALLA());
-        }
+          private async void Toolbar02_Clicked(object sender, EventArgs e)
+      {
+          //await Navigation.PushAsync(new OTRA_PANTALLA());
+      }
 
         private async void BtnGuardar_Clicked(object sender, EventArgs e)
-        {
-                if (ValidationForm().IsCompleted)
-                {
-                var sitio = new Models.Sitio
-                {
-                    descripcion = txtdescripcion.Text,
-                    latitud = txtlatitud.Text,
-                    longitud = txtlongitud.Text
-                };
+      {
+            /*if (ValidationForm().IsCompleted)
+            {
+            var sitio = new Models.Sitio
+            {
+                descripcion = txtdescripcion.Text,
+                latitud = txtlatitud.Text,
+                longitud = txtlongitud.Text
+            };
 
-                await PM2E2GRUPO7.Controllers.SitiosController.CrearSitio(sitio);
-                    ClearScreen();
-                    await DisplayAlert("Salvado", "Guardado Exitosamente", "Ok");
-                }
-                else
-                {
-                    await DisplayAlert("Error", "No se pudo guardar la ubicacion", "Ok");
-                }
+            await PM2E2GRUPO7.Controllers.SitiosController.CrearSitio(sitio);
+                ClearScreen();
+                await DisplayAlert("Salvado", "Guardado Exitosamente", "Ok");
+            }
+            else
+            {
+                await DisplayAlert("Error", "No se pudo guardar la ubicacion", "Ok");
+            }*/
         }
 
         private void ClearScreen()

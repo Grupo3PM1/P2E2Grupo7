@@ -6,16 +6,17 @@ namespace PM2E2GRUPO7.Models
 {
     public static class UrlApi
     {
-        public static string ip = "192.168.0.5";
-        public static string web = "CRUD-PHP";
+        public static string ip = "cinepolishn.000webhostapp.com";
+        public static string web = "RestAPI";
 
         //Apis clase sitios
-        public static string getEndPoint = "listasitios.php";
-        public static string postEndPoint = "crear.php";
+        public static string getEndPoint = "listasitios.php"; //GET
+        public static string postEndPoint = "crear.php"; //POST
     }
     public static class ApiSitio
     {
-        public static string POSTSitioList = string.Format("http://{0}/{1}/{2}", UrlApi.ip, UrlApi.web, UrlApi.getEndPoint);
+        public static string GETSitioList = string.Format("http://{0}/{1}/{2}", UrlApi.ip, UrlApi.web, UrlApi.getEndPoint);
+        public static string POSTSitioList = string.Format("http://{0}/{1}/{2}", UrlApi.ip, UrlApi.web, UrlApi.postEndPoint);
 
     }
 
@@ -25,6 +26,13 @@ namespace PM2E2GRUPO7.Models
         public string descripcion { get; set; }
         public string latitud { get; set; }
         public string longitud { get; set; }
+    }
+
+    public class SitioRoot
+    {
+        public IList<Sitio> sitio { get; set; }
+
+
     }
 
     
