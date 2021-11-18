@@ -1561,9 +1561,7 @@ C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\android\assets\Xamarin.GooglePlayServices.Maps.pdb
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\android\assets\Xamarin.GooglePlayServices.Tasks.dll
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\android\assets\Xamarin.GooglePlayServices.Tasks.pdb
-C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\jl\ff9f08b7-3550-4351-a7fb-2e1153194661.jar
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_AndroidXJetifyJavaLibraryRules.stamp
-C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\proguard\bcefdabc-bf5f-4852-b0d9-86971da95bb2.cfg
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_AndroidXJetifyProguardRules.stamp
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\_AndroidXJetifyProguardRules.jetify
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_AndroidXCecilfy.stamp
@@ -1992,3 +1990,5 @@ C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\jl\e50338ba-4cb1-464a-8505-5786a29cc5dc.jar
+C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\proguard\f426a98b-09ee-4e2f-80c1-100266359415.cfg

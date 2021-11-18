@@ -107,30 +107,31 @@ namespace PM2E2GRUPO7.Views
       }
 
         private async void BtnGuardar_Clicked(object sender, EventArgs e)
-      {
-            /*if (ValidationForm().IsCompleted)
+        {
+            if (ValidationForm().IsCompleted)
             {
-            var sitio = new Models.Sitio
-            {
-                descripcion = txtdescripcion.Text,
-                latitud = txtlatitud.Text,
-                longitud = txtlongitud.Text
-            };
+                var sit = new Models.Sitio
+                {
+                    descripcion = txtdescripcion.Text,
+                    latitud = txtlatitud.Text,
+                    longitud = txtlongitud.Text
+                };
 
-            await PM2E2GRUPO7.Controllers.SitiosController.CrearSitio(sitio);
+                await Controllers.SitiosController.CrearSitio(sit);
                 ClearScreen();
                 await DisplayAlert("Salvado", "Guardado Exitosamente", "Ok");
             }
             else
             {
                 await DisplayAlert("Error", "No se pudo guardar la ubicacion", "Ok");
-            }*/
+            }
+
         }
 
         private void ClearScreen()
         {
-            this.txtlatitud.Text = String.Empty;
-            this.txtlongitud.Text = String.Empty;
+           // this.txtlatitud.Text = String.Empty;
+            //this.txtlongitud.Text = String.Empty;
             this.txtdescripcion.Text = String.Empty;
             Photo.Source = ImageSource.FromFile("noimagen.png");
             takedfoto = false;

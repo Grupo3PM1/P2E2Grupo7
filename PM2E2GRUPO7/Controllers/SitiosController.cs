@@ -10,14 +10,7 @@ namespace PM2E2GRUPO7.Controllers
 {
     class SitiosController
     {
-        public class Body
-        {
-            public int id { get; set; }
-            public string descripcion { get; set; }
-            public double latitud { get; set; }
-            public double longitud { get; set; }
-            //public blob fotografia { get; set; }
-        }
+        
 
         public class ApiSitio
         {
@@ -26,11 +19,11 @@ namespace PM2E2GRUPO7.Controllers
 
 
         //METODO POST
-        /*public async static Task CrearSitio(Models.Sitio sitio)
+        public async static Task CrearSitio(Models.Sitio sitio)
         {
             String json = JsonConvert.SerializeObject(sitio);
             StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-            HttpRequestMessage response = null;
+            HttpResponseMessage response = null;
             using (HttpClient cliente = new HttpClient())
             {
                 response = await cliente.PostAsync(Models.ApiSitio.POSTSitioList, content);
@@ -39,7 +32,12 @@ namespace PM2E2GRUPO7.Controllers
             {
                 Debug.WriteLine("Sitio Guardado");
             }
-        }*/
+            else
+            {
+                Debug.WriteLine("ERROR");
+            }
+        }
+
 
         //METODO GET
 

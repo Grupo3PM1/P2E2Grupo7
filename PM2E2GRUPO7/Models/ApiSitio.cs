@@ -9,6 +9,7 @@ namespace PM2E2GRUPO7.Models
         public static string ip = "cinepolishn.000webhostapp.com";
         public static string web = "RestAPI";
 
+
         //Apis clase sitios
         public static string getEndPoint = "listasitios.php"; //GET
         public static string postEndPoint = "crear.php"; //POST
@@ -22,10 +23,12 @@ namespace PM2E2GRUPO7.Models
 
     public class Sitio
     {
-        public string id { get; set; }
+        //public int id { get; set; }
         public string descripcion { get; set; }
         public string latitud { get; set; }
         public string longitud { get; set; }
+        //public blob fotografia { get; set; }
+
     }
 
     public class SitioRoot
