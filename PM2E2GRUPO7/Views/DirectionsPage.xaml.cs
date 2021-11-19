@@ -33,27 +33,12 @@ namespace PM2E2GRUPO7.Views
 
         }
 
-       
-
-        private async void btnactualizar_Clicked(object sender, EventArgs e)
+        private void btnupdate_Clicked(object sender, EventArgs e)
         {
-            var ubicacion = list.SelectedItem as Models.Sitio;
-            if (ubicacion != null)
-            {
 
-
-                var page = new Views.UpdatePage();
-                page.BindingContext = ubicacion;
-                await Navigation.PushAsync(page);
-
-            }
-            else
-            {
-                await DisplayAlert("Alerta", "Seleccione un registro", "Ok");
-            }
         }
 
-        private async void btneliminar_Clicked(object sender, EventArgs e)
+        private async void btndelete_Clicked(object sender, EventArgs e)
         {
             var ubicacion = list.SelectedItem as Models.Sitio;
             if (ubicacion != null)
@@ -72,11 +57,58 @@ namespace PM2E2GRUPO7.Views
             {
                 await DisplayAlert("Alerta", "Seleccione un registro", "Ok");
             }
+
         }
 
-        private void btnforusquare_Clicked(object sender, EventArgs e)
+        private void btnfoursqare_Clicked(object sender, EventArgs e)
         {
 
         }
+
+
+
+        /*private async void btnactualizar_Clicked(object sender, EventArgs e)
+       {
+          var ubicacion = list.SelectedItem as Models.Sitio;
+           if (ubicacion != null)
+           {
+
+
+               var page = new Views.UpdatePage();
+               page.BindingContext = ubicacion;
+               await Navigation.PushAsync(page);
+
+           }
+           else
+           {
+               await DisplayAlert("Alerta", "Seleccione un registro", "Ok");
+           }
+    }*/
+
+        /*private async void btneliminar_Clicked(object sender, EventArgs e)
+        {
+            var ubicacion = list.SelectedItem as Models.Sitio;
+            if (ubicacion != null)
+            {
+
+                bool answer = await DisplayAlert("Alerta", "¿Desea Eliminar el registro seleccionado? Esto puede generar conflictos", "Yes", "No");
+                Debug.WriteLine("Answer: " + answer);
+                if (answer == true)
+                {
+                    //METODO DELETE
+                    list.ItemsSource = "";
+                }
+
+            }
+            else
+            {
+                await DisplayAlert("Alerta", "Seleccione un registro", "Ok");
+            }
+        }*/
+
+        /* private void btnforusquare_Clicked(object sender, EventArgs e)
+         {
+
+         }*/
     }
 }
