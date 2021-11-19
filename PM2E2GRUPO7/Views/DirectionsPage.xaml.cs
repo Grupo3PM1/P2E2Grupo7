@@ -16,26 +16,40 @@ namespace PM2E2GRUPO7.Views
         public DirectionsPage()
         {
             InitializeComponent();
+            refresh();
         }
 
-       /* protected async override void OnAppearing()
+        public async void refresh()
         {
-            base.OnAppearing();
-
             List<Models.Sitio> sit = await PM2E2GRUPO7.Controllers.SitiosController.GetListSitios();
             list.ItemsSource = sit;
+        }
+
+        
+
+        /*private async void btnRestApi_Clicked(object sender, EventArgs e)
+        {
+            List<Models.Sitio> sit = await PM2E2GRUPO7.Controllers.SitiosController.GetListSitios();
+            list.ItemsSource = sit;
+
         }*/
 
-        private async void btnRestApi_Clicked(object sender, EventArgs e)
+        private async void btnupdate_Clicked(object sender, EventArgs e)
         {
-            List<Models.Sitio> sit = await PM2E2GRUPO7.Controllers.SitiosController.GetListSitios();
-            list.ItemsSource = sit;
+            var ubicacion = list.SelectedItem as Models.Sitio;
+            if (ubicacion != null)
+            {
 
-        }
 
-        private void btnupdate_Clicked(object sender, EventArgs e)
-        {
+                var page = new Views.UpdatePage();
+                page.BindingContext = ubicacion;
+                await Navigation.PushAsync(page);
 
+            }
+            else
+            {
+                await DisplayAlert("Alerta", "Seleccione un registro", "Ok");
+            }
         }
 
         private async void btndelete_Clicked(object sender, EventArgs e)
@@ -49,7 +63,24 @@ namespace PM2E2GRUPO7.Views
                 if (answer == true)
                 {
                     //METODO DELETE
-                    list.ItemsSource = "";
+
+                    var sit = new Models.Sitio
+                    {
+                        id = ubicacion.id,
+                        descripcion = ubicacion.descripcion,
+                        latitud = ubicacion.latitud,
+                        longitud = ubicacion.longitud
+                    };
+
+                    await Controllers.SitiosController.DeleteSitio(sit);
+                    await DisplayAlert("Logrado", "Eliminado Exitosamente", "Ok");
+                    refresh();
+
+                }
+                else
+                {
+
+                    await DisplayAlert("Error", "No se pudo eliminar la ubicacion", "Ok");
                 }
 
             }
@@ -85,30 +116,7 @@ namespace PM2E2GRUPO7.Views
            }
     }*/
 
-        /*private async void btneliminar_Clicked(object sender, EventArgs e)
-        {
-            var ubicacion = list.SelectedItem as Models.Sitio;
-            if (ubicacion != null)
-            {
+      
 
-                bool answer = await DisplayAlert("Alerta", "¿Desea Eliminar el registro seleccionado? Esto puede generar conflictos", "Yes", "No");
-                Debug.WriteLine("Answer: " + answer);
-                if (answer == true)
-                {
-                    //METODO DELETE
-                    list.ItemsSource = "";
-                }
-
-            }
-            else
-            {
-                await DisplayAlert("Alerta", "Seleccione un registro", "Ok");
-            }
-        }*/
-
-        /* private void btnforusquare_Clicked(object sender, EventArgs e)
-         {
-
-         }*/
     }
 }

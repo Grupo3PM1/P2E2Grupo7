@@ -4,7 +4,7 @@
              x:Class="PM2E2GRUPO7.Views.DirectionsPage"
              BackgroundColor="LightGray">
     <StackLayout>
-        <Button x:Name="btnRestApi" Text="Mostrar Datos" Clicked="btnRestApi_Clicked"/>
+        
         <Label Text=" Nombre            Latitud     Longitud" 
                                    FontAttributes="Bold" TextColor="Black" />
 
@@ -14,25 +14,26 @@
                     <ViewCell>
                         <Grid>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
                                 <ColumnDefinition Width="Auto" />
                             </Grid.ColumnDefinitions>
 
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
-                            <Label Grid.Row = "1"  Text="{Binding descripcion}" 
-                                   FontAttributes="Bold" TextColor="Green" BackgroundColor="LightBlue"/>
+                            <Label Text="{Binding descripcion}" 
+                                   FontAttributes="Bold" TextColor="Green" />
 
-                            <Label Grid.Row = "1" Grid.Column="1" Text="{Binding latitud}" 
-                                   FontAttributes="Bold" TextColor="Blue" BackgroundColor="LightBlue"/>
+                            <Label Grid.Column="1" Text="{Binding latitud}" 
+                                   FontAttributes="Bold" TextColor="Blue" />
 
-                            <Label Grid.Row = "1" Grid.Column="2" Text="{Binding longitud}" FontAttributes="Bold" 
-                                   TextColor="Blue" BackgroundColor="LightBlue"/>
+                            <Label  Grid.Column="2" Text="{Binding longitud}" FontAttributes="Bold" 
+                                   TextColor="Blue" />
 
-                            <Label Grid.Row = "1" Grid.Column="3" Text="" FontAttributes="Bold" 
+                            <Label  Grid.Column="3" Text="" FontAttributes="Bold" 
                                    TextColor="Blue" />
 
 

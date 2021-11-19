@@ -57,5 +57,50 @@ namespace PM2E2GRUPO7.Controllers
             return listsitio;
         }
 
+        //METODO UPDATE
+        public async static Task UpdateSitio(Models.Sitio sitio)
+        {
+            String JsonContent = JsonConvert.SerializeObject(sitio);
+            StringContent contenido = new StringContent(JsonContent,Encoding.UTF8,"application/json");
+            HttpResponseMessage response = null;
+            using (HttpClient client = new HttpClient())
+            {
+                response = await client.PostAsync(Models.ApiSitio.UPDATESitioList,contenido);
+            }
+            if (response.IsSuccessStatusCode)
+            {
+                var respuesta = response.Content.ReadAsStringAsync().Result;
+                Debug.WriteLine("Sitio Actulizado");
+            }
+            else
+            {
+                Debug.WriteLine("ERROR");
+            }
+        }
+
+
+        //METODO DELETE
+        public async static Task DeleteSitio(Models.Sitio sitio)
+        {
+            String JsonContent = JsonConvert.SerializeObject(sitio);
+            StringContent contenido = new StringContent(JsonContent, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = null;
+            using (HttpClient client = new HttpClient())
+            {
+                response = await client.PostAsync(Models.ApiSitio.DELETESitioList, contenido);
+            }
+            if (response.IsSuccessStatusCode)
+            {
+                var respuesta = response.Content.ReadAsStringAsync().Result;
+                Debug.WriteLine("Sitio Eliminado");
+            }
+            else
+            {
+                Debug.WriteLine("ERROR");
+            }
+        }
+
+
+
     }
 }

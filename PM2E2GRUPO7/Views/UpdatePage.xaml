@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E2GRUPO7.Views.UpdatePage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+       Text="Pagina Principal" x:Name="Toolbar01" Clicked="Toolbar01_Clicked">
+        </ToolbarItem>
+
+        <ToolbarItem 
+       Text="Ubicaciones Salvadas" x:Name="Toolbar02" Clicked="Toolbar02_Clicked">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <Image Source="uth.png"
+                       HeightRequest="50"
+                       HorizontalOptions="Center"
+                       Margin="0,15,0,0"
+                       Aspect="AspectFill" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            
+        </Grid>
+        
+        <Label Text="ID:" FontAttributes="Bold" Margin="30,15,0,0"/>
+        <Entry 
+            Text="{Binding id}"  
+            x:Name="txtid" 
+            Placeholder="ID" 
+            Keyboard="Text" 
+            Margin="30,0,30,0"  
+            FontSize="15" 
+            IsReadOnly="True"/>
+        <Label Text="Longitud actual:" FontAttributes="Bold" Margin="30,0,0,0" />
+        <Label Text="Latitd actual:" FontAttributes="Bold" Margin="30,15,0,0"/>
+        <Entry 
+            Text="{Binding latitud}"  
+            x:Name="txtlatitud" 
+            Placeholder="Latitud" 
+            Keyboard="Text" 
+            Margin="30,0,30,0"  
+            FontSize="15" 
+            IsReadOnly="True"/>
+        <Label Text="Longitud actual:" FontAttributes="Bold" Margin="30,0,0,0" />
+        <Entry 
+            Text="{Binding longitud}" 
+            x:Name="txtlongitud" 
+            Placeholder="Longitud" 
+            Keyboard="Text" 
+            Margin="30,0,30,0"  
+            FontSize="15" 
+            IsReadOnly="True"/>
+        <Label Text="Descripción:" FontAttributes="Bold" Margin="30,0,0,0"/>
+        <Editor 
+            Text="{Binding descripcion}" 
+            x:Name="txtdescripcion" 
+            HeightRequest="100" 
+            Margin="30,0,30,0" 
+            Keyboard="Text" 
+            Placeholder="Describa la ubicación"  
+            FontSize="15"/>
+
+        <Button 
+            Text="Actualizar ubicacion" 
+            x:Name="BtnGuardar" 
+            Clicked="BtnGuardar_Clicked" 
+            HorizontalOptions="Center" 
+            Background="MediumPurple" 
+            TextColor="White" 
+            WidthRequest="200" 
+            Margin="0,15,0,0"/>
+        
+    </StackLayout>
+</ContentPage>
