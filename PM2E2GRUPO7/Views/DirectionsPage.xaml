@@ -8,7 +8,7 @@
         <Label Text=" Nombre            Latitud     Longitud" 
                                    FontAttributes="Bold" TextColor="Black" />
 
-        <ListView x:Name="list" HorizontalOptions="FillAndExpand" Margin="10">
+        <ListView x:Name="list" HorizontalOptions="FillAndExpand" Margin="10" ItemTapped="list_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -23,7 +23,7 @@
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
 
-                            <Label Grid.Row = "0"  Text="{Binding descripcion}" 
+                            <Label Grid.Row = "1"  Text="{Binding descripcion}" 
                                    FontAttributes="Bold" TextColor="Green" BackgroundColor="LightBlue"/>
 
                             <Label Grid.Row = "1" Grid.Column="1" Text="{Binding latitud}" 
@@ -34,10 +34,15 @@
 
                             <Label Grid.Row = "1" Grid.Column="3" Text="" FontAttributes="Bold" 
                                    TextColor="Blue" />
+
+
                         </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button x:Name="btnactualizar" TextColor="Black" Text="Actualizar " Clicked="btnactualizar_Clicked" BackgroundColor="DarkSeaGreen"/>
+        <Button x:Name="btneliminar" TextColor="Black" Text="Eliminar" Clicked="btneliminar_Clicked" BackgroundColor="PaleVioletRed"/>
+        <Button x:Name="btnforusquare" TextColor="Black" Text="Ir a Foursqare" Clicked="btnforusquare_Clicked" BackgroundColor="LightBlue"/>
     </StackLayout>
 </ContentPage>

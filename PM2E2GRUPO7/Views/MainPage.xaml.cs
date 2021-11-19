@@ -103,7 +103,7 @@ namespace PM2E2GRUPO7.Views
 
           private async void Toolbar02_Clicked(object sender, EventArgs e)
       {
-          //await Navigation.PushAsync(new OTRA_PANTALLA());
+          await Navigation.PushAsync(new DirectionsPage());
       }
 
         private async void BtnGuardar_Clicked(object sender, EventArgs e)
@@ -139,7 +139,7 @@ namespace PM2E2GRUPO7.Views
 
         private async void BtnUbicacion_Clicked(object sender, EventArgs e)
         {
-            //await Navigation.PushAsync(new OTRA_PANTALLA());
+            await Navigation.PushAsync(new DirectionsPage());
         }
         // FIN UBICACION
 

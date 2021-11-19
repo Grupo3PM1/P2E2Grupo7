@@ -9,8 +9,8 @@ namespace PM2E2GRUPO7
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new Views.DirectionsPage());
+            MainPage = new NavigationPage(new Views.MainPage());
+            //MainPage = new NavigationPage(new Views.DirectionsPage());
             //MainPage = new NavigationPage(new Views.PruebaPage());
         }
 
