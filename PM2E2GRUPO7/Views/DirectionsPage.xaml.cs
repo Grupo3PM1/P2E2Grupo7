@@ -29,6 +29,7 @@ namespace PM2E2GRUPO7.Views
         {
             List<Models.Sitio> sit = await PM2E2GRUPO7.Controllers.SitiosController.GetListSitios();
             list.ItemsSource = sit;
+
         }
     }
 }
