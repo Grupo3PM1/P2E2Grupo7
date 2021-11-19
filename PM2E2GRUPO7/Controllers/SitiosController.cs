@@ -51,8 +51,7 @@ namespace PM2E2GRUPO7.Controllers
                 if (response.IsSuccessStatusCode) {
                     var JsonContent = response.Content.ReadAsStringAsync().Result;
                     var SitioDes = JsonConvert.DeserializeObject<Models.SitioRoot>(JsonContent);
-                    listsitio = SitioDes.sitio as List<Models.Sitio>;
-
+                    listsitio = SitioDes.sitios as List<Models.Sitio>;
                 }
             }
             return listsitio;

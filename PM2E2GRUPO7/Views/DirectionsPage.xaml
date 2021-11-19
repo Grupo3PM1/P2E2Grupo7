@@ -3,5 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PM2E2GRUPO7.Views.DirectionsPage"
              BackgroundColor="LightGray">
-    
+    <StackLayout>
+        <Button x:Name="btnRestApi" Text="Consumir Rest Api" Clicked="btnRestApi_Clicked"/>
+
+        <ListView x:Name="list" HorizontalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row = "0" Text="{Binding descripcion}" 
+                                   FontAttributes="Bold"/>
+
+                            <Label Grid.Row = "1" Text="{Binding latitud}" 
+                                   FontAttributes="Bold"/>
+
+                            <Label Grid.Column="1" Text="{Binding longitud}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

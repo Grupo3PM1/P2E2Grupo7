@@ -23,20 +23,17 @@ namespace PM2E2GRUPO7.Models
 
     public class Sitio
     {
-        //public int id { get; set; }
+        public string id { get; set; }
         public string descripcion { get; set; }
         public string latitud { get; set; }
         public string longitud { get; set; }
-        //public blob fotografia { get; set; }
 
     }
 
     public class SitioRoot
     {
-        public IList<Sitio> sitio { get; set; }
-
-
+        public IList<Sitio> sitios { get; set; }
     }
 
-    
+
 }

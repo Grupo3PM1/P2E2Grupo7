@@ -25,10 +25,10 @@ namespace PM2E2GRUPO7.Views
             list.ItemsSource = sit;
         }*/
 
-        /*private async void btnRestApi_Clicked(object sender, EventArgs e)
+        private async void btnRestApi_Clicked(object sender, EventArgs e)
         {
             List<Models.Sitio> sit = await PM2E2GRUPO7.Controllers.SitiosController.GetListSitios();
             list.ItemsSource = sit;
-        }*/
+        }
     }
 }

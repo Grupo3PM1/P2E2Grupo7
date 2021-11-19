@@ -1,11 +1,14 @@
 @string/appbar_scrolling_view_behavior;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 @string/appbar_scrolling_view_behavior;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Release\110\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Release\110\res\mipmap-anydpi-v26\icon_round.xml
 alpha;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromleft.xml
 alpha;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoleft.xml
 alpha;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromleft.xml
 alpha;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoleft.xml
+alpha;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromleft.xml
+alpha;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoleft.xml
 androidx.appcompat.widget.Toolbar;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\fallbacktoolbardonotuse.xml
 androidx.appcompat.widget.Toolbar;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 androidx.appcompat.widget.Toolbar;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\shellcontent.xml
@@ -14,16 +17,24 @@ androidx.appcompat.widget.Toolbar;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\
 androidx.appcompat.widget.Toolbar;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 androidx.appcompat.widget.Toolbar;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\shellcontent.xml
 androidx.appcompat.widget.Toolbar;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\toolbar.xml
+androidx.appcompat.widget.Toolbar;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\toolbar.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\shellcontent.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\shellcontent.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\shellcontent.xml
 attr;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
 attr;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
+attr;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
 background;obj\Release\110\res\mipmap-anydpi-v26\icon.xml
 background;obj\Release\110\res\mipmap-anydpi-v26\icon_round.xml
 cache-path;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 cache-path;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Release\110\res\values\colors.xml
 com.google.android.material.appbar.AppBarLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
@@ -31,31 +42,45 @@ com.google.android.material.appbar.AppBarLayout;C:\Users\Jessy Velasquez\Source\
 com.google.android.material.appbar.AppBarLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 com.google.android.material.appbar.AppBarLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\shellcontent.xml
+com.google.android.material.appbar.AppBarLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\shellcontent.xml
 com.google.android.material.bottomnavigation.BottomNavigationView;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
 com.google.android.material.bottomnavigation.BottomNavigationView;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
 com.google.android.material.tabs.TabLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\fallbacktabbardonotuse.xml
 com.google.android.material.tabs.TabLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\tabbar.xml
 com.google.android.material.tabs.TabLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\fallbacktabbardonotuse.xml
 com.google.android.material.tabs.TabLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\tabbar.xml
+com.google.android.material.tabs.TabLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\tabbar.xml
 declare-styleable;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
 declare-styleable;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
+declare-styleable;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
 external-cache-path;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-cache-path;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-files-path;obj\Release\110\res\xml\file_paths.xml
 external-path;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Release\110\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Release\110\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
 FrameLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
+FrameLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
 item;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\styles.xml
 item;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\styles.xml
+item;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\styles.xml
 LinearLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
 LinearLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
+LinearLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 paths;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\87\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 paths;obj\Release\110\res\xml\file_paths.xml
 resources;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
 resources;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\strings.xml
@@ -63,6 +88,9 @@ resources;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\o
 resources;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
 resources;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\strings.xml
 resources;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\styles.xml
+resources;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\attrs.xml
+resources;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\strings.xml
+resources;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\styles.xml
 resources;obj\Release\110\res\values\colors.xml
 resources;obj\Release\110\res\values\styles.xml
 set;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromleft.xml
@@ -73,10 +101,16 @@ set;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Releas
 set;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromright.xml
 set;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoleft.xml
 set;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoright.xml
+set;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromleft.xml
+set;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromright.xml
+set;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoleft.xml
+set;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoright.xml
 string;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\strings.xml
 string;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\strings.xml
+string;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\strings.xml
 style;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\styles.xml
 style;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\styles.xml
+style;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\values\styles.xml
 style;obj\Release\110\res\values\styles.xml
 translate;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromleft.xml
 translate;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromright.xml
@@ -86,7 +120,13 @@ translate;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\
 translate;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromright.xml
 translate;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoleft.xml
 translate;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoright.xml
+translate;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromleft.xml
+translate;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\enterfromright.xml
+translate;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoleft.xml
+translate;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\anim\exittoright.xml
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\rootlayout.xml
 xamarin.forms.platform.android.ShellFlyoutLayout;C:\Users\Jessy Velasquez\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\flyoutcontent.xml
 xamarin.forms.platform.android.ShellFlyoutLayout;C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\flyoutcontent.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Release\110\lp\89\jl\res\layout\flyoutcontent.xml
