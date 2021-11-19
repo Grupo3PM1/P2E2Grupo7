@@ -4,9 +4,11 @@
              x:Class="PM2E2GRUPO7.Views.DirectionsPage"
              BackgroundColor="LightGray">
     <StackLayout>
-        <Button x:Name="btnRestApi" Text="Consumir Rest Api" Clicked="btnRestApi_Clicked"/>
+        <Button x:Name="btnRestApi" Text="Mostrar Datos" Clicked="btnRestApi_Clicked"/>
+        <Label Text=" Nombre            Latitud     Longitud" 
+                                   FontAttributes="Bold" TextColor="Black" />
 
-        <ListView x:Name="list" HorizontalOptions="FillAndExpand">
+        <ListView x:Name="list" HorizontalOptions="FillAndExpand" Margin="10">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -21,13 +23,17 @@
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
 
-                            <Label Grid.Row = "0" Text="{Binding descripcion}" 
-                                   FontAttributes="Bold"/>
+                            <Label Grid.Row = "0"  Text="{Binding descripcion}" 
+                                   FontAttributes="Bold" TextColor="Green" BackgroundColor="LightBlue"/>
 
-                            <Label Grid.Row = "1" Text="{Binding latitud}" 
-                                   FontAttributes="Bold"/>
+                            <Label Grid.Row = "1" Grid.Column="1" Text="{Binding latitud}" 
+                                   FontAttributes="Bold" TextColor="Blue" BackgroundColor="LightBlue"/>
 
-                            <Label Grid.Column="1" Text="{Binding longitud}" />
+                            <Label Grid.Row = "1" Grid.Column="2" Text="{Binding longitud}" FontAttributes="Bold" 
+                                   TextColor="Blue" BackgroundColor="LightBlue"/>
+
+                            <Label Grid.Row = "1" Grid.Column="3" Text="" FontAttributes="Bold" 
+                                   TextColor="Blue" />
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

@@ -1990,8 +1990,6 @@ C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\jl\e50338ba-4cb1-464a-8505-5786a29cc5dc.jar
-C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\proguard\f426a98b-09ee-4e2f-80c1-100266359415.cfg
 C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\bin\Debug\PM2E2GRUPO7.Android.dll
 C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\bin\Debug\PM2E2GRUPO7.Android.pdb
 C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\bin\Debug\com.companyname.pm2e2grupo7.apk
@@ -2657,3 +2655,5 @@ C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_
 C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\m4rv1\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\jl\a409b7df-b418-49ed-9a48-2beb5cc93e7c.jar
+C:\Users\Josue Castro\Source\Repos\P2E2Grupo7\PM2E2GRUPO7.Android\obj\Debug\110\androidx\proguard\07e1856d-ec58-4f5e-8554-a9ce1d0b182a.cfg

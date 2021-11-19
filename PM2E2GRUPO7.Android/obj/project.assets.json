@@ -2643,27 +2643,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m4rv1\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\Josue Castro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m4rv1\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7.Android\\PM2E2GRUPO7.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Josue Castro\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7.Android\\PM2E2GRUPO7.Android.csproj",
       "projectName": "PM2E2GRUPO7.Android",
-      "projectPath": "C:\\Users\\m4rv1\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7.Android\\PM2E2GRUPO7.Android.csproj",
-      "packagesPath": "C:\\Users\\m4rv1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m4rv1\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7.Android\\obj\\",
+      "projectPath": "C:\\Users\\Josue Castro\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7.Android\\PM2E2GRUPO7.Android.csproj",
+      "packagesPath": "C:\\Users\\Josue Castro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Josue Castro\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\m4rv1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Josue Castro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2677,8 +2674,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\m4rv1\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7\\PM2E2GRUPO7.csproj": {
-              "projectPath": "C:\\Users\\m4rv1\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7\\PM2E2GRUPO7.csproj"
+            "C:\\Users\\Josue Castro\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7\\PM2E2GRUPO7.csproj": {
+              "projectPath": "C:\\Users\\Josue Castro\\Source\\Repos\\P2E2Grupo7\\PM2E2GRUPO7\\PM2E2GRUPO7.csproj"
             }
           }
         }
